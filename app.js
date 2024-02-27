@@ -32,6 +32,7 @@ const taskAdding = () => {
   t1.classList.add("t1");
 
   let checkbox = document.createElement("input");
+  checkbox.classList.add("check");
   checkbox.type = "checkbox";
   let paragraph = document.createElement("p");
   paragraph.textContent = inputVal.value;
