@@ -74,8 +74,15 @@ body {
     }
 }
 
+.parent-last{
+    display: flex;
+    flex-direction: column;
+}
+
+
 .last{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     margin: 9px;
@@ -83,9 +90,14 @@ body {
 }
 .t1{
     display: flex;
-    align-items: center;
     gap: 10px;
 }
+
+.icons{
+    display: flex;
+    gap: 10px;
+}
+
 .icons i{
     cursor: pointer;
     color: #0198a0;
